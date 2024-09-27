@@ -5,67 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-	<style>
-		table{
-			border-collapse:collapse;
-			border:1px solid black ;
-		}
-		table,td,th{padding:7px;}
-		th{
-			background-color : blue ;
-		}
-		.gray{
-			background-color : grey ;
-		}
-		.radius{
-			border-radius:10px
-		}
+    <style>
+        table , thead , tr, td , th{
+            border: 1px solid black;
+            padding: 7px;
+        }
+        th{
+            background-color: aqua;
+        }
 	</style>
 </head>
 <body>
     <!-- add table here -->
-	<table class="radius">
-			<tr>
-				<th>NAME</th>
-				<th>KILLS</th>
-				<th>SAVED</th>
-				<th>DEATHS</th>
-				<th>REVIVES</th>
-				<th>WIN</th>
-			</tr>
-			<tr>
-				<td>Hackerman</td>
-				<td>10</td>
-				<td>0</td>
-				<td>1</td>
-				<td>0</td>
-				<td>0</td>
-			</tr>
-			<tr class="gray">
-				<td>Cool Doggo</td>
-				<td>13</td>
-				<td>4</td>
-				<td>8</td>
-				<td>7</td>
-				<td>1</td>
-			</tr>
-			<tr>
-				<td>Andrews</td>
-				<td>19</td>
-				<td>2</td>
-				<td>10</td>
-				<td>11</td>
-				<td>0</td>
-			</tr>
-			<tr class="gray">
-				<td>Strawberry</td>
-				<td>2</td>
-				<td>9</td>
-				<td>3</td>
-				<td>5</td>
-				<td>1</td>
-			</tr>
-	</table>
+	<section>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Kills</th>
+                <th>Win</th>
+                <th>Revive</th>
+                <th>Deths</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tom</td>
+                <td>12</td>
+                <td>1</td>
+                <td>0</td>
+                <td>5</td>
+            </tr>
+
+            <tr>
+                <td>Dedly op</td>
+                <td>10</td>
+                <td>1</td>
+                <td>0</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Empire vc</td>
+                <td>10</td>
+                <td>1</td>
+                <td>0</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Jerry</td>
+                <td>8</td>
+                <td>1</td>
+                <td>0</td>
+                <td>5</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+        
 </body>
 </html>
